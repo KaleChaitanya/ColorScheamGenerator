@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #cc95c0;
+  background: -webkit-linear-gradient(to right, #7aa1d2, #dbd4b4, #cc95c0);
+  background: linear-gradient(to right, #7aa1d2, #dbd4b4, #cc95c0);
+}
+header {
+  margin: 0px auto;
+  padding: 10px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.container {
+  margin: 10px auto;
+  padding: 10px 0px;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+ul > li {
+  height: 50vh;
+  width: 10%;
+}
+.hex-colors > p {
+  margin-top: 19em;
+  padding: 0px 5px;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+}
+button:hover{
+    cursor: pointer;
+}
